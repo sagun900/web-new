@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image scle</title>
+    <style>
+        .container{
+            width: 400px;
+            height: 200px;
+            margin: 30px auto;
+            border: 5px solid green;
+            overflow: hidden;
+        }
+        
+        img{
+            width: 200%;
+            height:200%;
+            transition: all 3s;
+        }
+        .container:hover img{
+            transform: scale(-0.9);
+
+        }
+
+        
+    </style>
+</head>
+<body>
+   <pre> image zoom with transform scale properties</pre> 
+   <div class="container"><img src="cup-coffee-with-heart-drawn-foam.jpg" alt=""></div>
+   
+</body>
+</html>

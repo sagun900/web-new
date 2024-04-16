@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <style>
+        body{
+            font-family:Arial;
+            sans-serif;
+            background-color:#f5f5f5;
+            margin:0;
+            padding:0;
+            display: flex;
+            justify-content:center;
+        align-items:center;
+        height: 100vh;
+        }
+
+        #todo-container{
+            background-color:#fff;
+            box-shadow:0 0 10px
+            rgba(0,0,0,0,1);
+            max-width:400px;
+            width:100%;
+            padding: 20px;
+            border-radius:8px;
+        }
+
+        h1{
+            text-align:center;
+            color:#333;
+
+        }
+
+        ul{
+            list-style-type: none;
+            padding:0;
+            margin:0;
+        }
+
+        li{
+            border-bottom: 1px solid;
+            #eee;
+            padding:10px;
+            font: size 18px;
+            display:flex;
+            justify-content;
+            space-beteen;
+            align-items:center;
+        }
+
+        li:last-child{
+            border-bottom:none;
+
+        }
+        input[type="text"]{
+            widt:100%;
+            padding: 10px;
+            box-sizing:border-box;
+            border-1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            font-size;16px;
+        }
+
+        button{
+            background-color:
+            #4caf50; 
+        color:white;
+        border:none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration:none;
+        display:inline-block;
+        font-size:16px;
+        cursor:pointer;
+        border-radius:4px;
+  }
+
+    </style>
+</head>
+<body>
+  <div id="todo-container">
+      <h1>Todo list</h1>
+      <form id="form">
+          <input type="text">
+          id="input"placeholder="Enter your todo" autocomplete="off">
+          <button type="submit">Add Todo</button>
+          </form>
+          <ul id="todos"></ul>
+
+  </div>  
+
+<script>
+    document.addEventlistener(
+    DoMcontentLOaded; function()
+    {
+        const from=
+        document.getElementByld('form');
+        const input=document.ge
+        tElementntByld('input');
+        cont todosul=document
+        .getElementByld('todos');
+
+        form.addEventlistener(submit);
+        function (e){
+            e.preventDefault();
+        }
+    }
+</script>
+</body>
+</html>

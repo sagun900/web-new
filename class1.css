@@ -1,0 +1,48 @@
+body{
+    background:yellowgreen;
+    background-image: url(Desert.jpg);
+}
+h1{
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid ;
+    border-bottom-color: blue;
+    border-top-color: blanchedalmond;
+    color: yellow;
+    margin:10px;
+    padding: 10px;
+}
+#green{
+    border: solid;
+    color:blue
+}
+
+
+.blue{
+    border-bottom-style: solid ;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: red;
+    border-bottom-color: red ;
+    border-left-color: red;
+    border-right-color: red;
+    color: blueviolet;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.white{
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+.white p span{
+    color: yellow;
+}
